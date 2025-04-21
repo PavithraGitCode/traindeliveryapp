@@ -1,58 +1,136 @@
 <!DOCTYPE html>
 <html>
-<style>
-input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <!-- for icons  -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- for swiper slider  -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
-input[type=submit] {
-  width: 100%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-div {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-</style>
+    <!-- fancy box  -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
+ 
 
-<h3>Using CSS to style an HTML Form</h3>
+<div class="form-bg">
+  <section>
+    <!--for demo wrap-->
+    <h1>Order List Table</h1>
+    <div class="tbl-header">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Food Name</th>
+            <th>Price</th>
+            <th>Order Person  Name</th>
+            <th>Coach Number</th>
+            <th>Phone Number</th>
+            <th>Train Number</th>
+            <th>Seat Number</th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+    <div class="tbl-content">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Noodles</td>
+            <td>500</td>
+            <td>Ganesh</td>
+            <td>434S</td>
+            <td>SE4</td>
+            <td>849439349</td>
+            <td>437783</td>
+            <td>s4</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Pizza</td>
+            <td>300</td>
+            <td>Ganesh</td>
+            <td>4343e</td>
+            <td>SE4</td>
+            <td>84399439349</td>
+            <td>437783</td>
+            <td>s4</td>
 
-<div>
-  <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Grill</td>
+            <td>599</td>
+            <td>Sri</td>
+            <td>S5</td>
+            <td>SE4</td>
+            <td>944893839</td>
+            <td>9439</td>
+            <td>s54</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Pasta</td>
+            <td>900</td>
+            <td>Ganesh</td>
+            <td>4d</td>
+            <td>SE4</td>
+            <td>748394849</td>
+            <td>8493</td>
+            <td>s2</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Dosa</td>
+            <td>500</td>
+            <td>Kam</td>
+            <td>df5454</td>
+            <td>SE4</td>
+            <td>948262644</td>
+            <td>437783</td>
+            <td>s47</td>
+          </tr>
+          
+          <tr>
+            <td>6</td>
+            <td>Idly</td>
+            <td>300</td>
+            <td>PaV</td>
+            <td>43</td>
+            <td>SE4</td>
+            <td>86857483</td>
+            <td>9483</td>
+            <td>s11</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Noodles</td>
+            <td>500</td>
+            <td>Ganesh</td>
+            <td>D5</td>
+            <td>SE4</td>
+            <td>84399439349</td>
+            <td>437783</td>
+            <td>s4</td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
+  </section>
   
-    <input type="submit" value="Submit">
-  </form>
+  
+   
 </div>
 
 </body>
